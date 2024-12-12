@@ -219,7 +219,7 @@ const Skills = () => {
         <div className="div">
             <div className="pt-3 pb-3" id="skills">
                 <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-                <div className="d-flex flex-wrap justify-content-center gap-3"> {/* Added gap between cards */}
+                <div className="gap"> {/* Added gap between cards */}
                     <Col xs={12} sm={6} md={4} className="mb-3">
                         <Card className="focus">
                             <Card.Body>
@@ -240,9 +240,15 @@ const Skills = () => {
                                                     src={skill.imgSrc}
                                                     alt={skill.imgAltText}
                                                     rounded
-                                                    className="image-style m-1"
+                                                    className="image-style m-1 "
                                                 />{" "}
+                                                
                                                 {skill.skillName}
+                                              {". "}
+                                              {" ."}
+                                              {" "}
+                                             
+                                               
                                             </a>
                                         </span>
                                     ))}
@@ -262,7 +268,7 @@ const Skills = () => {
                                     {skills.frameworks.map((skill, index) => (
                                         <span key={index}>
                                             <a
-                                                className="text-dark text-decoration-none"
+                                                className="text-dark text-decoration-none "
                                                 href={skill.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
@@ -272,8 +278,12 @@ const Skills = () => {
                                                     alt={skill.imgAltText}
                                                     rounded
                                                     className="image-style m-1"
-                                                />{" "}
+                                                />{" "}{" ."}{" "}
                                                 {skill.skillName}
+                                                {" "}
+                                                {" ."}
+                                                {". "} 
+                                                {" "}
                                             </a>
                                         </span>
                                     ))}
@@ -297,7 +307,7 @@ const Skills = () => {
                                                 href={skill.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                            >
+                                            > 
                                                 <Image
                                                     src={skill.imgSrc}
                                                     alt={skill.imgAltText}
@@ -305,6 +315,9 @@ const Skills = () => {
                                                     className="image-style m-1"
                                                 />{" "}
                                                 {skill.skillName}
+                                                {" ."}
+                                                {" ."}
+                                                {" "}
                                             </a>
                                         </span>
                                     ))}

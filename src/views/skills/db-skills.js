@@ -25,6 +25,7 @@ export const skills = {
         imgSrc: L_HTML5,
         skillName: "HTML5",
       },
+    
       {
         link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
         imgAltText: "CSS 3",
