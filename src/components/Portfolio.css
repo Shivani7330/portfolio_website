@@ -1,0 +1,48 @@
+.portfolio-section {
+    padding: 4rem 2rem;
+    background-color: #6a699b;
+    color: white;
+  }
+  
+  .portfolio-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project {
+ 
+    background-image: url('../assets/images/background.jpg');
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(204, 252, 10);
+  }
+  
+  .project a {
+    color: #e60e6c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
