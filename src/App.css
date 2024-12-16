@@ -7,6 +7,7 @@ body {
   .App {
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
   }
   
   h1, h2, h3 {
@@ -16,8 +17,9 @@ body {
 
   @media (max-width: 768px) {
     .nav-links {
-      flex-direction: column;
+      flex-direction: row;
       gap: 1rem;
+      align-items: center;
     }
   
     .projects {
@@ -25,8 +27,39 @@ body {
     }
   
     .skills-list {
-      flex-direction: column;
+      flex-direction: row;
       gap: 0.5rem;
+      align-items: center;
+    }
+  }
+
+
+
+
+
+  @media (max-width: 480px) {
+    .nav-links {
+      gap: 0.5rem;
+      flex-direction: row;
+      padding: 0.5rem; /* Add padding for better touch usability */
+    }
+  
+    .projects {
+      grid-template-columns: 1fr; /* Single column for phones */
+      gap: 0.75rem;
+    }
+  
+    .skills-list {
+      gap: 0.25rem;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.5rem; /* Adjust heading size for smaller screens */
+      text-align: center; /* Center headings */
+    }
+  
+    .App {
+      padding: 0.5rem; /* Reduce padding for mobile */
     }
   }
   

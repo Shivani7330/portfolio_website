@@ -1,0 +1,32 @@
+.footer-style {
+    background-color: #101018f8;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 2px solid #101018f8;
+    border-top-left-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+  }
+
+
+/* Responsive Design for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer-style {
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center-align text for better readability */
+    padding: 1.5rem; /* Add more padding for tablets */
+  }
+}
+
+/* Responsive Design for Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .footer-style {
+    font-size: 1rem; /* Further reduce font size for mobile */
+    padding: 1rem; /* Compact padding for mobile devices */
+    text-align: center; /* Ensure text remains centered */
+  }
+}

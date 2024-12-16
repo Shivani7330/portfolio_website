@@ -1,0 +1,52 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #686794;
+    color: hwb(250 94% 4%);
+   
+  }
+  
+  .home-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-section p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+ 
+/* Responsive Design for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .home-section h1 {
+    font-size: 2.5rem; /* Decrease font size for better readability */
+  }
+
+  .home-section p {
+    font-size: 1.2rem; /* Slightly reduce font size for readability */
+  }
+}
+
+/* Responsive Design for Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .home-section {
+    padding: 1rem; /* Further reduce padding for mobile screens */
+  }
+
+  .home-section h1 {
+    font-size: 2rem; /* Further decrease font size for mobile */
+  }
+
+  .home-section p {
+    font-size: 1rem; /* Adjust font size for optimal readability on mobile */
+  }
+}

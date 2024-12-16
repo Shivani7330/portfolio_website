@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a2843;
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #61dafb;
+  }
+
+
+
+
+/* Responsive Design for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Stack navbar items */
+    align-items: center;
+    padding: 1rem; /* Adjust padding for smaller screens */
+  display: flex;  
+  }
+
+  .nav-links {
+    flex-direction: row; /* Arrange links vertically */
+    gap: 1rem;
+    margin-top: 1rem; 
+    display: flex;/* Add space below the logo */
+    list-style: none; 
+  }
+
+  .nav-links a {
+    font-size: 1.1rem; /* Slightly increase font size for better tap targets */
+  }
+}
+
+/* Responsive Design for Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: row; /* Stack navbar items */
+    align-items: center;
+   
+  display: flex;
+    padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .logo {
+    font-size: 1.25rem;
+    font-weight: bold; /* Adjust logo size for mobile */
+  }
+
+  .nav-links {
+    gap: 0.75rem;
+    flex-direction: row; /* Arrange links vertically */
+    margin-top: 1rem; 
+    display: flex;/* Add space below the logo */
+    list-style: none; /* Reduce gap between links */
+  }
+
+  .nav-links a {
+    font-size: 1rem; /* Ensure readable font size */
+    padding: 0.5rem 0; /* Add padding for better tap usability */
+    color: white;
+    text-decoration: none;
+  
+    
+  
+  }
+}

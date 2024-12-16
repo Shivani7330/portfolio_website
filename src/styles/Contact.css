@@ -1,0 +1,88 @@
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #6a699b;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+.contact-section div{
+  background-color: #4f5184;
+  padding: 4%;
+}
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #61dafb;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #21a1f1;
+  }
+  
+
+
+
+/* Responsive Design for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items */
+    align-items: center;
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Arrange links vertically */
+    gap: 1rem;
+    margin-top: 1rem; /* Add space below the logo */
+  }
+
+  .nav-links a {
+    font-size: 1.1rem; /* Slightly increase font size for better tap targets */
+  }
+}
+
+/* Responsive Design for Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .logo {
+    font-size: 1.25rem; /* Adjust logo size for mobile */
+  }
+
+  .nav-links {
+    gap: 0.75rem; /* Reduce gap between links */
+  }
+
+  .nav-links a {
+    font-size: 1rem; /* Ensure readable font size */
+    padding: 0.5rem 0; /* Add padding for better tap usability */
+  }
+}
