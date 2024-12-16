@@ -32,18 +32,25 @@ const Skills = () => {
                                                 href={skill.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
+                                                style={{
+                                                    textDecoration: "none",
+                                                    fontWeight: "bold", // Make the text bold
+                                                    fontSize: "1.5rem", // Increase the font size
+                                                    display: "inline-block", // Ensures proper centering
+                                                 
+                                                }}
                                             >
                                                 <Image
                                                     src={skill.imgSrc}
                                                     alt={skill.imgAltText}
                                                     rounded
-                                                    className="image-style m-1 "
-                                                />{" "}
-                                                
+                                                    className="image-style m-1"
+                                                />
+                                                &nbsp; &nbsp; 
                                                 {skill.skillName}
-                                              {". "}
-                                              {" ."}
-                                              {" "}
+                                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                            
+                                            
                                              
                                                
                                             </a>
@@ -69,18 +76,23 @@ const Skills = () => {
                                                 href={skill.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
+                                                style={{
+                                                    textDecoration: "none",
+                                                    fontWeight: "bold", // Make the text bold
+                                                    fontSize: "1.5rem", // Increase the font size
+                                                    display: "inline-block", // Ensures proper centering
+                                                }}
                                             >
                                                 <Image
                                                     src={skill.imgSrc}
                                                     alt={skill.imgAltText}
                                                     rounded
                                                     className="image-style m-1"
-                                                />{" "}{" ."}{" "}
+                                                />&nbsp; &nbsp; 
+                                               
                                                 {skill.skillName}
-                                                {" "}
-                                                {" ."}
-                                                {". "} 
-                                                {" "}
+                                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                               
                                             </a>
                                         </span>
                                     ))}
@@ -104,17 +116,22 @@ const Skills = () => {
                                                 href={skill.link}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
+                                                style={{
+                                                    textDecoration: "none",
+                                                    fontWeight: "bold", // Make the text bold
+                                                    fontSize: "1.5rem", // Increase the font size
+                                                    display: "inline-block", // Ensures proper centering
+                                                }}
                                             > 
                                                 <Image
                                                     src={skill.imgSrc}
                                                     alt={skill.imgAltText}
                                                     rounded
                                                     className="image-style m-1"
-                                                />{" "}
+                                                />&nbsp; &nbsp; 
                                                 {skill.skillName}
-                                                {" ."}
-                                                {" ."}
-                                                {" "}
+                                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                                
                                             </a>
                                         </span>
                                     ))}

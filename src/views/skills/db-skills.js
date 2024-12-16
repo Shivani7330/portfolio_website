@@ -26,12 +26,7 @@ export const skills = {
         skillName: "HTML5",
       },
     
-      {
-        link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-        imgAltText: "CSS 3",
-        imgSrc: L_CSS3,
-        skillName: "CSS3",
-      },
+      
       {
         link: "https://www.javascript.com/",
         imgAltText: "JavaScript",
@@ -50,6 +45,12 @@ export const skills = {
         imgAltText: "Redux",
         imgSrc: L_REDUX,
         skillName: "Redux",
+      },
+      {
+        link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+        imgAltText: "CSS 3",
+        imgSrc: L_CSS3,
+        skillName: "CSS3",
       },
       
     ],
