@@ -19,24 +19,35 @@
   }
 
 
+  
 
-  Responsive Design for Mobile Phones (max-width: 480px) */
-@media (max-width: 480px) {
-  .navbar {
-    padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+@media (max-width: 768px) {
+  .about-section h2 {
+      font-size: 2rem; 
   }
 
-  .logo {
-    font-size: 1.25rem; /* Adjust logo size for mobile */
-  }
-
-  .nav-links {
-    gap: 0.75rem; /* Reduce gap between links */
-  }
-
-  .nav-links a {
-    font-size: 1rem; /* Ensure readable font size */
-    padding: 0.5rem 0; /* Add padding for better tap usability */
+  .about-section p {
+      font-size: 1rem; 
+      line-height: 1.6; 
+      max-width: 100%; 
+      padding: 0 \1rem;
   }
 }
+
+
+@media (max-width: 480px) {
+  .about-section h2 {
+      font-size: 1.5rem; 
+  }
+
+  .about-section p {
+      font-size: 0.9rem; 
+      line-height: 1.4; 
+      max-width: 100%; 
+      padding: 0 \0.5rem;
+     
+  }
+}
+
+
   

@@ -12,21 +12,21 @@
   }
 
 
-/* Responsive Design for Tablets (max-width: 768px) */
+
 @media (max-width: 768px) {
   .footer-style {
-    font-size: 1.25rem; /* Adjust font size for smaller screens */
-    flex-direction: column; /* Stack items vertically */
-    text-align: center; /* Center-align text for better readability */
-    padding: 1.5rem; /* Add more padding for tablets */
+    font-size: 1.25rem;
+    flex-direction: column;
+    text-align: center; 
+    padding: 1.5rem; 
   }
 }
 
-/* Responsive Design for Mobile Phones (max-width: 480px) */
+
 @media (max-width: 480px) {
   .footer-style {
-    font-size: 1rem; /* Further reduce font size for mobile */
-    padding: 1rem; /* Compact padding for mobile devices */
-    text-align: center; /* Ensure text remains centered */
+    font-size: 1rem; 
+    padding: 1rem; 
+    text-align: center; 
   }
 }

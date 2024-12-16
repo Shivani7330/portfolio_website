@@ -50,36 +50,36 @@
   }
 
   .nav-links a {
-    font-size: 1.1rem; /* Slightly increase font size for better tap targets */
+    font-size: 1.1rem;
   }
 }
 
-/* Responsive Design for Mobile Phones (max-width: 480px) */
+
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: row; /* Stack navbar items */
+    flex-direction: row; 
     align-items: center;
    
   display: flex;
-    padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+    padding: 0.5rem 1rem; 
   }
 
   .logo {
     font-size: 1.25rem;
-    font-weight: bold; /* Adjust logo size for mobile */
+    font-weight: bold; 
   }
 
   .nav-links {
     gap: 0.75rem;
-    flex-direction: row; /* Arrange links vertically */
+    flex-direction: row; 
     margin-top: 1rem; 
-    display: flex;/* Add space below the logo */
-    list-style: none; /* Reduce gap between links */
+    display: flex;
+    list-style: none; 
   }
 
   .nav-links a {
-    font-size: 1rem; /* Ensure readable font size */
-    padding: 0.5rem 0; /* Add padding for better tap usability */
+    font-size: 1rem; 
+    padding: 0.5rem 0; 
     color: white;
     text-decoration: none;
   
